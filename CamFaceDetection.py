@@ -1,6 +1,6 @@
 import cv2 as cv
 cap=cv.VideoCapture(0)
-path = 'C:\\Users\\aljas\\OneDrive\\Documents\\Development\\Python\\OpenCV\\FaceDetection\\haarcascade_frontalface_default.xml'
+path = 'haarcascade_frontalface_default.xml'
 faceCase=cv.CascadeClassifier(path)
 
 while True:
